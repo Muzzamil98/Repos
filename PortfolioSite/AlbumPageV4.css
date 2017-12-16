@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.members {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img {
+    background-image: url("images/download.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.list {
+    font-style: italic;
+}
