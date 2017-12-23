@@ -1,6 +1,47 @@
 .header {
     background-color: lightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .footer {
     background-color: yellow;
+}
+.one {
+    background-color: magenta;
+}
+.two {
+    background-color: indigo;
+}
+.three {
+    background-color: violet;
+}
+.four {
+    background-color: springgreen;
+}
+.five {
+    background-color: yellowgreen;
+}
+.six {
+    background-color: teal;
+}
+.content {
+    background-color: slategray;
+    
+}
+.menu-back {
+    background-color: slategray;
+}
+#Name {
+    font-weight: bold;
+}
+#Email {
+    font-weight: bold;
+}
+#Phone {
+    font-weight: bold;
+}
+#Reason {
+    font-weight: bold;
+}
+#BestDay {
+    font-weight: bold;
 }
