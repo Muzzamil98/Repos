@@ -1,0 +1,36 @@
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.members {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img {
+    background-image: url("images/download.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.list {
+    font-style: italic;
+}
+a.black:link {
+    text-decoration: none; 
+}
+a.black:visited {
+    color: green;
+}
+a.black:hover {
+    text-decoration: underline;
+    color: pink;
+}
+a.black:active {
+    text-decoration: none;
+}
+table, td {
+    font-style: italic;
+}
+thead, th {
+    background-color: lightgrey;
+}
+tbody, tr {
+    background-color: lightskyblue;
+}
