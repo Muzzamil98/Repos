@@ -45,34 +45,34 @@
 #BestDay {
     font-weight: bold;
 }
-a.home:link {}
-a.home:visited {
+a#home:link {}
+a#home:visited {
     color: pink;
 }
-a.home:hover {
+a#home:hover {
     font-weight: bold;
 }
-a.home:active {
+a#home:active {
     text-decoration: none;
 }
-a.menu:link {}
-a.menu:visited {
+a#menu:link {}
+a#menu:visited {
     color: pink;
 }
-a.menu:hover {
+a#menu:hover {
     font-weight: bold;
 }
-a.menu:active {
+a#menu:active {
     text-decoration: none;
 }
-a.contactus:link {}
-a.contactus:visited {
+a#contactus:link {}
+a#contactus:visited {
     color: pink;
 }
-a.contactus:hover {
+a#contactus:hover {
     font-weight: bold;
 }
-a.contactus:active {
+a#contactus:active {
     text-decoration: none;
 }
 th {
@@ -81,5 +81,5 @@ th {
     font-weight: none;
 }
 td {
-    padding-right: 200px;
+    padding-left: 300px;
 }
