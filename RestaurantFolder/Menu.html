@@ -1,84 +1,156 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Contact Us</title>
+        <title>Menu</title>
         <link href="restaurantStyles.css"
         rel="stylesheet"
         type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     </head>
     <body>
         <div class="header">
         <center><h1>Hooters</h1></center>
         </div>
         <hr>
-        <div>
-        <a href="HomePage.html" class="home">Home<space></space></a>
-        <a href="Menu.html" class="menu">Menu<space></space></a>
-        <a href="ContactUs.html" class="contactus">Contact Us<space></space></a>
+        <div class="container">
+            <ul class="nav nav-tabs">
+        <li><a href="HomePage.html" id="home" class="glyphicon glyphicon-home"><space></space></a></li>
+        <li class="active"><a href="Menu.html" id="menu">Menu<space></space></a></li>
+        <li><a href="ContactUs.html" id="contactus">Contact Us<space></space></a></li>
+            </ul>
         </div>
         <hr>
-        <div align="center">
-            <div>
-                <form action="#" method="post">
-                <div>
-                    <label id="Name" for="Name">Name: </label>
-                    <input id="Name" name="Name" text="text" /><br/>
-                </div>
-                <p></p>
-                <div>
-                    <label id="Email" for="Email">Email: </label>
-                    <input id="Email" name="Email" type="text" /><br/>
-                </div>
-                <p></p>
-                <div>
-                    <label id="Phone" for="Phone">Phone: </label>
-                    <input id="Phone" name="Phone" type="text" /><br/>
-                </div>
-                <p></p>
-                <div>
-                    <label id="Reason" for="Reason">Reason for Inquiry: </label>
-                    <select name="Phones">
-                        <option value="SelectAReason">Catering</option>
-                        <option value="SoftwareSupport">Private Party</option>
-                        <option value="HardwareSupport">Feedback</option>
-                        <option value="InformationRequest">Other</option>
-                    </select><br/>
-                </div>
-                <p></p>
-                <div>
-                    <label id="AdditionalInformation" for="AdditionalInformation">Additional Information: </label>
-                    <textarea id="AdditionalInformation" name="AdditionalInformation"></textarea><br/>
-                </div>
-                <p></p>
-                <div>
-                <label id="Choice" for="Choice">Have You Been to the Restaurant: </label>
-                <input id="Choice" name="Choice" type="radio" checked/>No
-                <input id="Choice" name="Choice" type="radio" />Yes<br/>
-                </div>
-                <p></p>
-                <div>
-                    <label id="BestDay" for="BestDay">Best Days To Contact You: </label>
-                    <input type="checkbox" id="TermsOfService" />Mon
-                    <input type="checkbox" id="TermsOfService" />Tue
-                    <input type="checkbox" id="TermsOfService" />Wed
-                    <input type="checkbox" id="TermsOfService" />Thu
-                    <input type="checkbox" id="TermsOfService" />Fri
-                </div>
-                <p></p>
-                <div>
-                    <center><input type="submit" id="SubmitButton" value="Send Request" /></center>
-                </div>
-            </form>
+        <div class="container">
+            <div class="jumbotron">
+                <h2>Opening a New Location of Hooters in LA, California</h2>
+                <p>Grand Opening on the 1st of January, 2018</p>
+                <p>Special Offer: Buy One and Get a Free Dish of Your Choice</p>
             </div>
+        </div>
+        <div class="menu-back">
+        <div class="one" align="center">
+            <h3>Burgers and Fries</h3>
+            <div align="center">
+            <p>
+                An American Classic!<br/>
+                Your choice - with or without cheese Pickle,<br/> onion, tomato,
+                and lettuce Served with our<br/> famuos thick cut french Fries $7.95.
+            </p>
+            </div>
+        </div>
+        <p></p>
+        <div class="two" align="center">
+            <h3>Hot Dogs and Chips</h3>
+            <p>
+                An Summer Classic!<br/> Your Choice - white or wheat bun Relish,<br/> mustard,
+                and ketchup Served with our<br/> house-mode chips $7.95.
+            </p>
+        </div>
+        <p></p>
+        <div class="three" align="center">
+            <h3>Italian Sausage and Peppers</h3>
+            <p>
+                An All-Time Favorite!<br/> Your Choice - mild or spicy Cole<br/> Slaw Served
+                with garlic mashers $10.95.
+            </p>
+        </div>
+        <p></p>
+        <div class="four" align="center">
+            <h3>Tenderloin Sandwich and Chips</h3>
+            <p>
+                Really Hits the Spot!<br/> Plain or Sesame Seed Bun Pickle, onion,<br/> tomato, 
+                and lettuce Served with our<br/> house-made chips $8.95.
+            </p>
+        </div>
+        <p></p>
+        <div class="five" align="center">
+            <h3>House Salad</h3>
+            <p>
+                On the Lighter Side Your Choice<br/> - with or without cheese Iceberg 
+                lettuce,<br/> tomatoes, peppers Thousand Island or<br/> Rance Dressing Served 
+                with a dinner roll $6.95.
+            </p>
+        </div>
+        <p></p>
+        <div class="six" align="center">
+            <h3>Brisket Sandwich and Fries</h3>
+            <p>
+                A Taste of Texas!<br/> Smoked Brisket on thick-cut Texas Toast<br/>Cole Slow<br/>
+                Served with our famous thick-cut french fries $7.95.
+            </p>
+        </div>
+        </div>
+        <style>
+            .one {
+                width: 400px;
+                border: 1px dashed black;
+                margin: auto;
+            }
+            .two {
+                margin: auto;
+                width: 400px;
+                border: 1px dashed black;
+            }
+            .three {
+                margin: auto;
+                width: 400px;
+                border: 1px dashed black;
+            }
+            .four {
+                margin: auto;
+                width: 400px;
+                border: 1px dashed black;
+            }
+            .five {
+                margin: auto;
+                width: 400px;
+                border: 1px dashed black;
+            }
+            .six {
+                margin: auto;
+                width: 400px;
+                border: 1px dashed black;
+            }
+        </style>
+        <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Beverages</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                </tr>
+            </tbody>
+        </table>
         </div>
         <hr>
         <div class="footer">
-        <center>
-            Address: 2045 50th Avenue, Brooklyn, NY 11235<br/>
-        </center>
-        <center>
-            Phone: 1(917) 453-3232
-        </center>
+            <center>
+                Address: 2045 50th Avenue, Brooklyn, NY 11235<br/>
+            </center>
+            <center>
+                Phone: 1(917) 453-3232
+            </center>
         </div>
     </body>
 </html>
